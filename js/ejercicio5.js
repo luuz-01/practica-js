@@ -15,6 +15,10 @@ for (let i = 0; i < frutas.length; i++){
    console.log (frutas[i])
 }
 
-for (let i = 9; i < frutas.length; i--){
+
+for (let i =(frutas.length -1); i >= 0 ; i--){
    console.log (frutas[i])
 }
+
+const resultado = frutas.find(fruta
+)
