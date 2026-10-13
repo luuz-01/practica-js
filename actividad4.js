@@ -3,7 +3,11 @@
 //retornar la suma de ambos arreglos siempre que tengan el mismo número
 //de elementos, de lo contrario,devolver array vacío
 
+
+
 //test...
+
+
 
 //Función que solicite un numero positivo y retorne todos los divisores 
 //de 5 desde 1 hasta el número que hayas indicado. El resultado se obtiene
