@@ -1,5 +1,4 @@
 
-
 //Construir un objeto con los datos una película
 
 const pelicula = {
@@ -29,9 +28,10 @@ const pelicula = {
       nombres:"Willow Shields", personaje:"Primrose Everdeen", rol:"Hermana menor de la protagonista"
     }
 
-
   ],
   sinopsis:["2 trubutos de 12 distritos se enfrentan a muerte, mistras en el transcurso se revelan al capitolio"] ,
   direccion: ["Gary Ross"],
   escritores:["Billy Ray","Gary Ross","Suzanne Collins"]
 }
+
+console.log(pelicula.titulo);
