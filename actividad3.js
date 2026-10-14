@@ -21,7 +21,7 @@ function contarParesImpares(numeros) {
 }
 
 let resultado = contarParesImpares([82, 15, 4, 95, 36, 32, 29, 18, 95, 14]);
-
+console.log("-------------Función 1-------------------")
 console.log(resultado);
 
 
@@ -50,6 +50,7 @@ function esCapicua(numero) {
   return true;
 }
 
+console.log("-------------Función 2-------------------")
 console.log(esCapicua(121));    
 console.log(esCapicua(444));    
 console.log(esCapicua(3223));  
