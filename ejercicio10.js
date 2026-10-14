@@ -4,7 +4,7 @@
 let perfil = {
   apellidos : "Carujulca Diaz",
   nombres: "Luz Karlita",
-  edad: 42,
+  edad: 18,
   telefono: ["999111222","955566777", "988777444"],
   formacion:[
     {nivel: "Primaria", nombre:"San José", anio:2000},
