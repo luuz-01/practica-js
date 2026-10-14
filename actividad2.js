@@ -10,47 +10,26 @@ const computadora = {
   tieneBluetooth:false,
   puertos:["USB-C" ,"DisplayPort 1.4a", "HDMI 2.1","USB-A"],
 
-  componentes: [
-  { tipo: "Procesador", 
-    marca: "AMD", 
-    modelo: "Rysen 7" 
-  },
-  {
-     tipo: "Memoria RAM",
-    capacidad: 16, 
-    unidad: "GB" 
-  },
-  { 
-    tipo: "Almacenamiento", 
-    capacidad: 512, 
-    unidad: "GB" }
+  componentes: 
+  [
+    {tipo: "Procesador", marca: "AMD", modelo: "Rysen 7"  },
+    {tipo: "Memoria RAM",capacidad: 16, unidad: "GB" },
+    {tipo: "Almacenamiento", capacidad: 512, unidad: "GB" }
   ],
 
-  dispositivos:[
-    {
-      nombre: "Teclado",
-      tipo: "Itegrado",
-      retroiluminado:"false"
-    },
-    {
-      nombre: "Mouse",
-      tipo: "Externo",
-      conectado: false
-    },
-    {
-      nombre: "Audifonos",
-      tipo: "Audio" ,
-      conectado: false
-    }
-
+  dispositivos:
+  [
+    {nombre: "Teclado", tipo: "Itegrado",retroiluminado:"false"},
+    {nombre: "Mouse", tipo: "Externo", conectado: false},
+    {nombre: "Audifonos",tipo: "Audio" ,conectado: false}
   ]
 }
 
-console.log(computadora.marca);
+console.log("Marca: ",computadora.marca);
 
-console.log(computadora.modelo);
+console.log("Modelo: ",computadora.modelo);
 
-console.log(computadora.componentes[0].tipo);
+console.log("Conponentes, procesador: ",computadora.componentes[0]);
 
-console.log(computadora.componentes[1].capacidad);
+console.log("Capacidad: ",computadora.componentes[1].capacidad, "GB");
 
